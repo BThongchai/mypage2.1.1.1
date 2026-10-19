@@ -1,0 +1,108 @@
+/* ตั้งค่าพื้นฐานและธีมสี */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0b0f19;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* ส่วนหัว Hero Banner */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('player-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+  border-bottom: 4px solid #2ecc71;
+}
+
+.hero h1 {
+  font-size: 46px;
+  margin-bottom: 10px;
+  color: #2ecc71;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.hero p {
+  font-size: 18px;
+  color: #d1d5db;
+}
+
+/* กล่องเนื้อหาหลัก */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #111827;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+h2 {
+  color: #2ecc71;
+  border-bottom: 2px solid #1f2937;
+  padding-bottom: 8px;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.7;
+  color: #9ca3af;
+}
+
+/* ตารางข้อมูลนักเตะ */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.info-table th, .info-table td {
+  border: 1px solid #1f2937;
+  padding: 12px;
+  text-align: left;
+}
+
+.info-table th {
+  background-color: #1f2937;
+  color: #2ecc71;
+  width: 30%;
+}
+
+.info-table td {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+/* แกลเลอรีรูปภาพ */
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.gallery img {
+  width: 230px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #1f2937;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer ส่วนท้าย */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+  font-size: 14px;
+  margin-top: 40px;
+  border-top: 1px solid #1f2937;
+}
